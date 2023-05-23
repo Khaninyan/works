@@ -1,0 +1,82 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #181818;
+}
+
+h1 {
+  margin: 30px auto;
+  color: #fff;
+  font-size: 2.6rem;
+  line-height: 1.1;
+}
+
+h2{
+  margin: 30px auto;
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 1.1;
+}
+
+.github{
+  margin:  20% 40%;
+  text-align: center;
+  background-color: white;
+}
+
+button {
+  position: absolute;
+  left: 100px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.nav{
+  background-color: #181818;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav li:hover{
+  color: yellowgreen;
+}
+
+.nav li.active{
+  color: orange;
+}
+
+.nav a{
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
